@@ -327,8 +327,8 @@
 	    			<option value="Root Canal Treatment">Root Canal Treatment</option>
 	    			<option value="Braces">Braces</option>
 	    		</select>
-	    		<input type="date" name="date" value="<?php if(isset($_GET['date'])){echo $_GET['date'];}?>">
-	    		<input type="time" name="time" id="time" value="<?php if(isset($_GET['time'])){echo $_GET['time'];}?>">
+	    		<input type="date" name="date" placeholder="12/12/2022" value="<?php if(isset($_GET['date'])){echo $_GET['date'];}?>">
+	    		<input type="time" name="time" placeholder="13:00" id="time" value="<?php if(isset($_GET['time'])){echo $_GET['time'];}?>">
 	    		<?php if(isset($error)){echo "<script>alert('".$error."')</script>";}?>
 	    		<?php if(isset($error1)){echo "<script>alert('".$error1."')</script>";}?>
 	    		<?php if(isset($error_time)){echo "<script>alert('".$error_time."')</script>";}?>
